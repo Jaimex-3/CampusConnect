@@ -1,0 +1,87 @@
+<!-- res/layout/activity_registration.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="Register"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="32dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Full Name -->
+        <EditText
+            android:id="@+id/nameEditText"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:textColor="@color/textPrimary"
+            android:textColorHint="#AAAAAA"
+            android:backgroundTint="@color/inputFieldBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"/>
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/emailEditText"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/textPrimary"
+            android:textColorHint="#AAAAAA"
+            android:backgroundTint="@color/inputFieldBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"/>
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/textPrimary"
+            android:textColorHint="#AAAAAA"
+            android:backgroundTint="@color/inputFieldBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"/>
+
+        <!-- Student ID -->
+        <EditText
+            android:id="@+id/studentIdEditText"
+            android:hint="Student ID"
+            android:inputType="text"
+            android:textColor="@color/textPrimary"
+            android:textColorHint="#AAAAAA"
+            android:backgroundTint="@color/inputFieldBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"/>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submitButton"
+            android:text="Submit"
+            android:textColor="@color/buttonText"
+            android:backgroundTint="@color/primaryColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+</ScrollView>

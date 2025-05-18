@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="secondaryColor">#03DAC5</color> <!-- Optional accent -->
+    <color name="primaryDark">#121212</color> <!-- For status bar -->
+    <color name="background">#000000</color>
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="inputFieldBackground">#1F1F1F</color>
+    <color name="primaryColor">#2196F3</color>
+    <color name="buttonText">#FFFFFF</color>
+    <color name="cardBackground">#1C1C1E</color> <!-- Dark card background -->
+    <color name="textSecondary">#B0B0B0</color> <!-- Slightly muted text -->
+</resources>
