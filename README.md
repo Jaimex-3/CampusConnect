@@ -225,7 +225,3 @@ Contributions are welcome! To get started:
 This project is for educational purposes. See the [LICENSE](LICENSE) file for details.
 
 ---
-
-<p align="center">
-  Made with ❤️ for campus life
-</p>
